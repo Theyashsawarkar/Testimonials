@@ -14,6 +14,7 @@ function Card({
         <img
           className="aspect-square rounded-full w-[140px] h-[140px] z-[25]"
           src={review.image}
+          alt="testimonie"
         />
         <div
           className="w-[140px] h-[140px] bg-violet-500 rounded-full absolute
