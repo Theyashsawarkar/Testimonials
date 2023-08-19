@@ -35,6 +35,7 @@ const Testimonials = (props) => {
       <Card
         review={reviews[index]}
         setIndex={setIndex}
+        surpriseHandler={surpriseHandler}
         leftShiftHandler={leftShiftHandler}
         rightShiftHandler={rightShiftHandler}
       ></Card>
